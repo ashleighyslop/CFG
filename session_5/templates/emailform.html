@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+</head>
+<div id='main_content'>
+  <header>
+    <ul>
+      <li>Sign Up</li>
+      <li> Login </li>
+    </ul>
+  </header>
+  <form method="post" action="/signup">
+    <div>
+      <label> First Name </label>
+      <input type="text" required autocomplete="off" name="first_name" />
+    </div>
+    <div>
+      <label> Second Name </label>
+      <input type="text" required autocomplete="off" name ="second_name" />
+    </div>
+    <div>
+      <label> Email</label>
+      <input type="text" required autocomplete="off" name="email" />
+    </div>
+    <div>
+      <label> Password </label>
+      <input type="text" required autocomplete="off" />
+    </div>
+    <input type="submit" value="Submit" id="submit-button">
+  </form>
+</div>
